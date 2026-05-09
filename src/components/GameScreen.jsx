@@ -1,7 +1,10 @@
 import { useState } from 'react';
 
-export default function GameScreen({ word, spyIndex, onNewGame }) {
+export default function GameScreen({ word, spyIndices, onNewGame }) {
   const [showSpy, setShowSpy] = useState(false);
+
+  const spyLabels = spyIndices.map((i) => `Игрок ${i + 1}`).join(', ');
+  const spyWord = spyIndices.length === 1 ? 'Шпион' : 'Шпионы';
 
   return (
     <div className="game-screen">
@@ -16,20 +19,26 @@ export default function GameScreen({ word, spyIndex, onNewGame }) {
         <ul>
           <li>Задавайте вопросы, связанные со словом, но не слишком очевидные</li>
           <li>Следите за реакцией других игроков</li>
-          <li>Шпион может попытаться угадать слово — будьте осторожны!</li>
+          <li>
+            {spyIndices.length === 1
+              ? 'Шпион может попытаться угадать слово — будьте осторожны!'
+              : `В игре ${spyIndices.length} шпиона — будьте особенно внимательны!`}
+          </li>
         </ul>
       </div>
 
       <div className="game-actions">
         {!showSpy ? (
           <button className="btn-danger" onClick={() => setShowSpy(true)}>
-            🔍 Раскрыть шпиона
+            🔍 Раскрыть {spyIndices.length === 1 ? 'шпиона' : 'шпионов'}
           </button>
         ) : (
           <div className="spy-reveal">
             <div className="spy-reveal-card">
               <div className="card-icon">🕵️</div>
-              <h2>Шпион — Игрок {spyIndex + 1}</h2>
+              <h2>
+                {spyWord} — {spyLabels}
+              </h2>
               <p>
                 Загаданное слово: <strong>{word}</strong>
               </p>

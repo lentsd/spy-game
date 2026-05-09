@@ -572,6 +572,52 @@ body {
   color: var(--green);
 }
 
+/* ===== WORD PROPOSAL ===== */
+.word-proposal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+
+.word-input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg);
+  color: var(--text);
+  font-size: 16px;
+  font-family: inherit;
+  outline: none;
+  transition: border-color 0.2s ease;
+  text-align: center;
+}
+
+.word-input:focus {
+  border-color: var(--green);
+}
+
+.word-input::placeholder {
+  color: var(--text-faint);
+}
+
+/* ===== CUSTOM WORDS INFO ===== */
+.custom-words-info {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+}
+
+.custom-words-info p {
+  font-size: 12px;
+  color: var(--text-dim);
+  line-height: 1.6;
+}
+
 /* ===== MOBILE ===== */
 @media (max-width: 480px) {
   .app {
