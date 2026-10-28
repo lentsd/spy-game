@@ -3,24 +3,22 @@ import SetupScreen from './components/SetupScreen';
 import WordProposal from './components/WordProposal';
 import PlayerReveal from './components/PlayerReveal';
 import GameScreen from './components/GameScreen';
-import FloatingEmojis from './components/FloatingEmojis';
-import russianCelebs from './data/russian.json';
-import foreignCelebs from './data/foreign.json';
+import locations from './data/locations.json';
+import characters from './data/characters.json';
 import './App.css';
 
 const DATABASES = {
-  russian: russianCelebs,
-  foreign: foreignCelebs,
-  all: [...russianCelebs, ...foreignCelebs],
+  locations,
+  characters,
 };
 
 function getRandomWord(db) {
-  const list = DATABASES[db] || DATABASES.all;
+  const list = DATABASES[db] || DATABASES.locations;
   return list[Math.floor(Math.random() * list.length)];
 }
 
 /** Pick `count` unique random indices from 0..total-1, excluding any in `excludeSet` */
-function getRandomSpyIndices(total, count, excludeSet = new Set()) {
+function getRandomCursedIndices(total, count, excludeSet = new Set()) {
   const available = [];
   for (let i = 0; i < total; i++) {
     if (!excludeSet.has(i)) available.push(i);
@@ -37,26 +35,28 @@ export default function App() {
   // phases: setup | propose | reveal | game
   const [phase, setPhase] = useState('setup');
   const [playerCount, setPlayerCount] = useState(0);
-  const [spyCount, setSpyCount] = useState(1);
+  const [cursedCount, setCursedCount] = useState(1);
   const [currentPlayer, setCurrentPlayer] = useState(0);
   const [word, setWord] = useState('');
-  const [spyIndices, setSpyIndices] = useState([]);
+  const [wordCategory, setWordCategory] = useState('locations');
+  const [cursedIndices, setCursedIndices] = useState([]);
   const [proposedWords, setProposedWords] = useState([]); // { playerIndex, word }[]
 
-  const handleStart = useCallback((count, spies, db, customWords) => {
+  const handleStart = useCallback((count, cursed, db, customWords) => {
     setPlayerCount(count);
-    setSpyCount(spies);
+    setCursedCount(cursed);
     setCurrentPlayer(0);
     setProposedWords([]);
+    setWordCategory(customWords ? 'custom' : db);
 
     if (customWords) {
       // Go to word proposal phase
       setPhase('propose');
     } else {
-      // Classic mode: pick word from database, pick spies
+      // Preset mode: everyone except the cursed players receives the same word.
       const chosenWord = getRandomWord(db);
       setWord(chosenWord);
-      setSpyIndices(getRandomSpyIndices(count, spies));
+      setCursedIndices(getRandomCursedIndices(count, cursed));
       setPhase('reveal');
     }
   }, []);
@@ -77,10 +77,10 @@ export default function App() {
 
         setWord(chosenWord);
 
-        // The author of the chosen word is NOT a spy
+        // The author of the selected word cannot be cursed.
         const excludeSet = new Set([wordAuthorIndex]);
-        const indices = getRandomSpyIndices(playerCount, spyCount, excludeSet);
-        setSpyIndices(indices);
+        const indices = getRandomCursedIndices(playerCount, cursedCount, excludeSet);
+        setCursedIndices(indices);
 
         // Reset to first player for reveal phase
         setCurrentPlayer(0);
@@ -89,7 +89,7 @@ export default function App() {
         setCurrentPlayer(currentPlayer + 1);
       }
     },
-    [currentPlayer, playerCount, spyCount, proposedWords],
+    [currentPlayer, playerCount, cursedCount, proposedWords],
   );
 
   const handleNextPlayer = useCallback(() => {
@@ -103,18 +103,18 @@ export default function App() {
   const handleNewGame = useCallback(() => {
     setPhase('setup');
     setPlayerCount(0);
-    setSpyCount(1);
+    setCursedCount(1);
     setCurrentPlayer(0);
     setWord('');
-    setSpyIndices([]);
+    setWordCategory('locations');
+    setCursedIndices([]);
     setProposedWords([]);
   }, []);
 
-  const spySet = new Set(spyIndices);
+  const cursedSet = new Set(cursedIndices);
 
   return (
     <div className="app">
-      <FloatingEmojis />
       <div className="container">
         {phase === 'setup' && <SetupScreen onStart={handleStart} />}
 
@@ -132,14 +132,15 @@ export default function App() {
             key={`reveal-${currentPlayer}`}
             playerNumber={currentPlayer + 1}
             totalPlayers={playerCount}
-            isSpy={spySet.has(currentPlayer)}
+            isCursed={cursedSet.has(currentPlayer)}
             word={word}
+            category={wordCategory}
             onNext={handleNextPlayer}
           />
         )}
 
         {phase === 'game' && (
-          <GameScreen word={word} spyIndices={spyIndices} onNewGame={handleNewGame} />
+          <GameScreen word={word} cursedIndices={cursedIndices} onNewGame={handleNewGame} />
         )}
       </div>
     </div>

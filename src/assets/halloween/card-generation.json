@@ -1,0 +1,231 @@
+{
+  "mode": "Built-in image_gen for generated illustrations; one user-requested external photograph",
+  "webEncoding": "Generated illustrations: JPEG quality 82, dimensions unchanged; source photo downloaded without editing",
+  "styleReference": "src/assets/halloween/night-forest.png",
+  "assets": [
+    {
+      "category": "locations",
+      "id": "abandoned-house",
+      "word": "Заброшенный дом",
+      "file": "/cards/abandoned-house.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An abandoned crooked Victorian wooden house, broken windows, sagging porch and untended garden, warm light glowing from one upstairs window. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-0a0a1b37-b2d1-4b54-92ba-68a780f62cac.png"
+    },
+    {
+      "category": "locations",
+      "id": "crypt",
+      "word": "Склеп",
+      "file": "/cards/crypt.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An ancient stone crypt with a heavy ajar door, weathered carved sarcophagus, cobwebs and cold violet light inside. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-120ea65a-51ee-47d6-808d-68395f11deae.png"
+    },
+    {
+      "category": "locations",
+      "id": "mad-scientist-lab",
+      "word": "Лаборатория безумного учёного",
+      "file": "/cards/mad-scientist-lab.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An eccentric mad scientist laboratory full of glass coils, bubbling green and amber flasks, copper machinery and a large electrical apparatus; no people. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-04806b21-71c5-4368-8439-86db22b1139c.png"
+    },
+    {
+      "category": "locations",
+      "id": "old-attic",
+      "word": "Старый чердак",
+      "file": "/cards/old-attic.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. A dusty old attic with sloping wooden rafters, a round moonlit window, old trunks, covered furniture and cobwebs. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-b1af3880-4bdd-4d29-a390-7267a0278f4f.png"
+    },
+    {
+      "category": "locations",
+      "id": "basement",
+      "word": "Подвал",
+      "file": "/cards/basement.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. A creepy old basement with a staircase descending into shadow, brick walls, exposed pipes and a single warm hanging bulb. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-06d5a24f-d3c2-453a-89c8-560d4d29b742.png"
+    },
+    {
+      "category": "locations",
+      "id": "witch-cave",
+      "word": "Пещера ведьмы",
+      "file": "/cards/witch-cave.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. A witch's cave with a small glowing green cauldron, hanging herbs, old spell books, candles and gnarled roots at its entrance; no witch. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-d29c225a-e194-4594-8f04-87228c7d881f.png"
+    },
+    {
+      "category": "locations",
+      "id": "dracula-castle",
+      "word": "Замок Дракулы",
+      "file": "/cards/dracula-castle.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. Count Dracula's imposing gothic castle on a rocky Transylvanian cliff, dramatic towers, lit arched windows, mist and bats under the moon. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-376da4b3-c6e8-4fc4-9cc1-2f579a5ff589.png"
+    },
+    {
+      "category": "locations",
+      "id": "abandoned-church",
+      "word": "Заброшенная церковь",
+      "file": "/cards/abandoned-church.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An abandoned gothic church interior with broken blue stained glass, crooked pews, fallen plaster and moonlight through its high windows. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-4c659073-e376-4c0e-a1a7-badb251ec910.png"
+    },
+    {
+      "category": "locations",
+      "id": "antarctic-station",
+      "word": "Антарктическая станция",
+      "file": "/cards/antarctic-station.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An isolated Antarctic research station in a vast snowy night, modular buildings, a red-lit communications mast, blowing snow and warm orange windows. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-01e2c3ee-c56b-4b60-b3d5-34b0e1d683c0.png"
+    },
+    {
+      "category": "locations",
+      "id": "silent-hill",
+      "word": "Город Сайлент Хилл",
+      "file": "/cards/silent-hill.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. A deserted Silent Hill town street lost in thick blue-gray fog, cracked wet asphalt, dim street lamps, empty storefronts and an abandoned car; no signs or lettering. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-db3b798f-6ba3-4f52-8cb1-74933e97f573.png"
+    },
+    {
+      "category": "locations",
+      "id": "forest-cabin",
+      "word": "Хижина в лесу",
+      "file": "/cards/forest-cabin.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. A secluded small timber cabin deep in a dense dark forest, one orange glowing window, a creaking porch and a narrow overgrown path. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-3f3aa98e-c312-4e3c-b02a-a2c08c6bef05.png"
+    },
+    {
+      "category": "locations",
+      "id": "sewer",
+      "word": "Канализация",
+      "file": "/cards/sewer.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. A large eerie brick sewer tunnel with shallow reflective water, rusty pipes, a round opening receding into mist and amber utility lights. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-f878a4a3-b142-469c-a18b-4e42d87de7bf.png"
+    },
+    {
+      "category": "locations",
+      "id": "pet-sematary",
+      "word": "Кладбище домашних животных",
+      "file": "/cards/pet-sematary.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An eerie pet cemetery at the edge of a dark forest, small uneven gravestones with subtle carved animal silhouettes, tiny wooden fences and mist; no text, no bodies. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-0d45dca3-4dc2-4fa4-92f4-f95070b908cd.png"
+    },
+    {
+      "category": "locations",
+      "id": "overlook-hotel",
+      "word": "Отель «Оверлук»",
+      "file": "/cards/overlook-hotel.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. The ominous grand Overlook Hotel lobby: symmetrical old timber architecture, geometric orange-red carpet, ornate chandeliers, tall windows and an empty reception desk; no people, no lettering. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-74c948dc-d3c9-4179-b3fb-30c5ed56bc52.png"
+    },
+    {
+      "category": "locations",
+      "id": "asylum",
+      "word": "Психиатрическая лечебница",
+      "file": "/cards/asylum.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a beautifully detailed miniature cinematic location scene. An abandoned Victorian psychiatric hospital corridor, tall barred windows, peeling walls, old doors and a solitary empty wheelchair in blue moonlight; no patients, no restraints, no violence. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-366f4b38-ebe7-4adb-96a1-88de01e27855.png"
+    },
+    {
+      "category": "characters",
+      "id": "freddy-krueger",
+      "word": "Фредди Крюгер",
+      "file": "/cards/freddy-krueger.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Freddy Krueger as a recognizable stylized adult horror character: worn brown fedora, red-and-dark-green striped sweater, one raised metal-bladed glove and a mischievous sinister grin. Suggest his scarred face with gentle sculpted texture, no graphic wounds. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-b28ca14d-9efa-4c84-a8d5-c6375d1a1a95.png"
+    },
+    {
+      "category": "characters",
+      "id": "pennywise",
+      "word": "Пеннивайз",
+      "file": "/cards/pennywise.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Pennywise the adult clown, recognizable orange side hair, pale face with fine red makeup lines, vintage gray ruffled costume and one bright red balloon. A theatrical sly smile, creepy but playful. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-ed8d4f92-9c2d-4f57-86f2-3e3ea7de67ec.png"
+    },
+    {
+      "category": "characters",
+      "id": "dracula",
+      "word": "Дракула",
+      "file": "/cards/dracula.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Classic Count Dracula, an elegant adult vampire with slick black hair, pale face, subtle fangs, black high-collared cape lined in red and a white formal shirt, standing proudly. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-e951eee1-6cdb-49c3-bcf7-bedaac4fba0a.png"
+    },
+    {
+      "category": "characters",
+      "id": "beetlejuice",
+      "word": "Битлджус",
+      "file": "/cards/beetlejuice.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Beetlejuice, a mischievous adult ghost with tousled green hair, pale theatrical face, dark eye circles and the iconic black-and-white vertical striped suit, making an expressive humorous gesture. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-3ba5c0cf-6a08-4dd9-9cbf-0ce9c3f263a6.png"
+    },
+    {
+      "category": "characters",
+      "id": "edward-cullen",
+      "word": "Эдвард Каллен",
+      "file": "/cards/edward-cullen.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Edward Cullen from Twilight as a stylized adult vampire, youthful adult face, tousled bronze-brown swept-up hair, pale luminous skin, amber eyes and a dark gray coat, against a misty blue forest. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-a0bedbdf-7604-4833-a2c1-d037e1f64b83.png"
+    },
+    {
+      "category": "characters",
+      "id": "hannibal-lecter",
+      "word": "Ганнибал Лектер",
+      "file": "/cards/hannibal-lecter.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Hannibal Lecter as a recognizable sophisticated older adult man with a composed piercing gaze, short neatly combed gray hair, wearing the iconic tan lower-face protective mask and a dark neat shirt. No violence, blood, gore or weapons. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-29bba1c8-154c-46dc-ba20-80ba9ebe1e9f.png"
+    },
+    {
+      "category": "characters",
+      "id": "chucky",
+      "word": "Кукла Чаки",
+      "file": "/cards/chucky.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Chucky the recognizable sinister small toy doll with bright orange-red hair, freckled round face, mischievous smile, striped rainbow shirt and blue denim overalls. Empty hands, no weapons, no gore. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-3a1706a2-8aac-4faf-8eea-a3fc6e803c1f.png"
+    },
+    {
+      "id": "joker",
+      "word": "Джокер",
+      "category": "characters",
+      "type": "photo",
+      "file": "/cards/joker-photo.jpg",
+      "caption": "Из-за авторских прав гпт отказался генерировать джокера в общей стилистике :(",
+      "credit": "Источник фото: «Правила жизни»",
+      "sourceUrl": "https://www.pravilamag.ru/entertainment/696131-hit-na-vse-vremena-11-luchshih-rolei-hita-ledjera/",
+      "imageUrl": "https://images.pravilamag.ru/upload/img_cache/22a/22adbc5fd7974715f066283ea2c65936_ce_3476x2317x0x0.jpg",
+      "note": "Caption supplied by the user as a demotivator joke; the generator did not state the rejection reason."
+    },
+    {
+      "category": "characters",
+      "id": "jack-sparrow",
+      "word": "Джек Воробей",
+      "file": "/cards/jack-sparrow.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Captain Jack Sparrow as a recognizable stylized adult pirate: red bandana, beaded dark dreadlocks, kohl-lined eyes, braided goatee, weathered tricorn hat and layered brown pirate coat. Waist-up playful three-quarter pose holding a closed compass. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-fecb369b-2aff-4e33-b483-56efb19dfe3b.png"
+    },
+    {
+      "category": "characters",
+      "id": "jacob-black",
+      "word": "Джейкоб",
+      "file": "/cards/jacob-black.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. Jacob Black from Twilight as a stylized adult man with a youthful adult face, short black hair, warm tan skin and a dark casual jacket; a subtle majestic wolf silhouette in the moonlit forest behind him. Fully clothed. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-e154e16c-177a-4db2-9442-b1819ea46259.png"
+    },
+    {
+      "category": "characters",
+      "id": "edward-scissorhands",
+      "word": "Эдвард руки ножницы",
+      "file": "/cards/edward-scissorhands.jpg",
+      "prompt": "Create one landscape 4:3 illustration for a Halloween party game secret-word card. Subject: the fictional Edward Scissorhands as a gentle, clearly stylized, fully clothed adult collectible 3D cartoon figure. Unruly black hair, very pale face, shy kind expression, dark tailored gothic coat with decorative silver fasteners. His iconic articulated silver scissor hands are visible resting peacefully in front of him, never pointed toward anyone. The supplied images are STYLE REFERENCES ONLY for sculpted dimensional materials and midnight-blue, violet and amber lighting. Whimsical animation art, not a photograph, no realistic person, no injuries, no blood, no violence, no nudity. Soft deep navy atmospheric background, centered waist-up composition with generous margins. No text, no frame, no watermark, no other characters.",
+      "references": [
+        "src/assets/halloween/night-forest.png",
+        "src/assets/halloween/friendly-ghost.png"
+      ],
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-59f95194-a904-4764-bf6e-fbe566a3d19f.png"
+    },
+    {
+      "category": "characters",
+      "id": "xenomorph",
+      "word": "Чужой",
+      "file": "/cards/xenomorph.jpg",
+      "prompt": "Use case: stylized-concept. Asset type: one individual illustration for a secret-word card in a Halloween party game website. Generate a landscape 4:3 image, ideally 1024x768. The supplied image is a STYLE REFERENCE ONLY: match its polished dimensional 3D game-art rendering, midnight navy background, saturated violet and cool blue rim lighting, warm amber-orange highlights, rounded sculpted shapes and atmospheric depth. Do not reproduce its pumpkins, moon or forest unless required by the subject. Subject: a stylized sculpted collectible character portrait, not a live-action photograph. The Alien Xenomorph as a recognizable stylized science-fiction creature: elongated smooth glossy black dome head, ribbed biomechanical torso, long curved tail and tiny silver teeth. Elegant dramatic silhouette, no gore, no attack or victim. Composition: one clear centered subject, instantly readable on a small phone card, keep important details inside the middle 80% with comfortable margins. The artwork fills the scene; no card frame, no user interface, no collage, no text, no captions, no logos, no watermarks. Festive spooky mood rather than disturbing horror. No gore, no graphic injury. High-quality coherent lighting and materials, sharp focal subject with a softly atmospheric background.",
+      "generatedSource": "/Users/lentsd/.codex/generated_images/01a17db2-2a6f-7613-969b-828793f4c0d5/exec-017ace5a-eb9b-4f08-9305-fbd84b9be82d.png"
+    }
+  ]
+}

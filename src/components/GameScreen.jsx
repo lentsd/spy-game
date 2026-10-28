@@ -1,54 +1,42 @@
 import { useState } from 'react';
+import ghost from '../assets/halloween/friendly-ghost.png';
+import WordArtwork from './WordArtwork';
 
-export default function GameScreen({ word, spyIndices, onNewGame }) {
-  const [showSpy, setShowSpy] = useState(false);
-
-  const spyLabels = spyIndices.map((i) => `Игрок ${i + 1}`).join(', ');
-  const spyWord = spyIndices.length === 1 ? 'Шпион' : 'Шпионы';
+export default function GameScreen({ word, cursedIndices, onNewGame }) {
+  const [showCursed, setShowCursed] = useState(false);
+  const cursedLabels = cursedIndices.map((index) => `Игрок ${index + 1}`).join(', ');
+  const singleCursed = cursedIndices.length === 1;
 
   return (
     <div className="game-screen">
-      <div className="game-header">
-        <div className="game-icon">🎯</div>
-        <h1>Обсуждение</h1>
-        <p className="subtitle">Задавайте друг другу вопросы и голосуйте, кто шпион!</p>
-      </div>
+      <header className="game-header">
+        <img className="role-ghost" src={ghost} alt="" aria-hidden="true" />
+        <p className="eyebrow">Все роли розданы</p>
+        <h1>Кто из вас<br />проклятый?</h1>
+        <p className="subtitle">Задавайте вопросы. Слушайте ответы. Голосуйте.</p>
+      </header>
 
-      <div className="game-tips">
-        <h3>💡 Советы</h3>
+      <section className="game-tips" aria-labelledby="tips-heading">
+        <h2 id="tips-heading">Не выдайте секрет</h2>
         <ul>
-          <li>Задавайте вопросы, связанные со словом, но не слишком очевидные</li>
-          <li>Следите за реакцией других игроков</li>
-          <li>
-            {spyIndices.length === 1
-              ? 'Шпион может попытаться угадать слово — будьте осторожны!'
-              : `В игре ${spyIndices.length} шпиона — будьте особенно внимательны!`}
-          </li>
+          <li>Спрашивайте о загаданном слове, но не слишком очевидно.</li>
+          <li>Замечайте уклончивые ответы и реакцию других игроков.</li>
+          <li>{singleCursed ? 'Проклятый может попытаться угадать слово — будьте осторожны.' : `Проклятых в этой игре: ${cursedIndices.length}. Будьте внимательны.`}</li>
         </ul>
-      </div>
+      </section>
 
       <div className="game-actions">
-        {!showSpy ? (
-          <button className="btn-danger" onClick={() => setShowSpy(true)}>
-            🔍 Раскрыть {spyIndices.length === 1 ? 'шпиона' : 'шпионов'}
-          </button>
+        {!showCursed ? (
+          <button type="button" className="btn-secondary" onClick={() => setShowCursed(true)}>Раскрыть {singleCursed ? 'проклятого' : 'проклятых'}</button>
         ) : (
-          <div className="spy-reveal">
-            <div className="spy-reveal-card">
-              <div className="card-icon">🕵️</div>
-              <h2>
-                {spyWord} — {spyLabels}
-              </h2>
-              <p>
-                Загаданное слово: <strong>{word}</strong>
-              </p>
-            </div>
+          <div className="cursed-reveal" aria-live="polite">
+            <p className="eyebrow">{singleCursed ? 'Проклятый' : 'Проклятые'}</p>
+            <h2>{cursedLabels}</h2>
+            <WordArtwork key={word} word={word} />
+            <p>Загаданное слово:<strong>{word}</strong></p>
           </div>
         )}
-
-        <button className="btn-primary" onClick={onNewGame}>
-          🔄 Новая игра
-        </button>
+        <button type="button" className="btn-primary" onClick={onNewGame}>Новая игра <span aria-hidden="true">↗</span></button>
       </div>
     </div>
   );
