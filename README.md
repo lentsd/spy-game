@@ -14,3 +14,31 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Публикация
+
+Основной сайт на `https://spy.lentsd.ru/` собирается как раньше: `npm run build`
+создаёт папку `dist` с путями от корня сайта. Dockerfile и настройки Vite для
+серверной сборки не меняются.
+
+Для дополнительной копии на GitHub Pages:
+
+1. В настройках репозитория откройте **Settings → Pages** и выберите
+   **Source → GitHub Actions**.
+2. После добавления workflow в `main` публикация запускается при каждом push в
+   `main`. Её также можно запустить вручную: **Actions → Deploy to GitHub Pages →
+   Run workflow**.
+3. После успешной публикации игра доступна по адресу
+   `https://lentsd.github.io/spy-game/`.
+
+Workflow `.github/workflows/deploy-pages.yml` задаёт `--base=/spy-game/` только
+для сборки GitHub Pages. Для локальной проверки этой версии:
+
+```sh
+npm ci
+npm run build -- --base=/spy-game/
+npm run preview -- --base=/spy-game/
+```
+
+Откройте `http://localhost:4173/spy-game/`. Для следующей серверной публикации
+снова выполните обычный `npm run build`.

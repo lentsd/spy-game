@@ -11,7 +11,7 @@ export default function WordArtwork({ word }) {
   const image = (
     <img
       className="word-artwork"
-      src={src}
+      src={`${import.meta.env.BASE_URL}${src.replace(/^\//, '')}`}
       alt={`Иллюстрация: ${word}`}
       width="1024"
       height="768"
